@@ -20,7 +20,7 @@ function HomeScreen({ navigation }) {
   const [outputText, setOutputText] = useState('');  // output from model
 
   // Hugging Face API Key 
-  const apiKey = 'Api-key';
+  const apiKey = 'Your-Api-key';
 
   // Function to add a new card with the current input value and an additional black card
   const addCard = async () => {

@@ -181,7 +181,7 @@ function OptimizerScreen({ navigation }) {
   const [outputText, setOutputText] = useState('');  // Generated output from model
 
   // Hugging Face API Key (Replace with your actual API key)
-  const apiKey = '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';  // Replace with your Hugging Face API key
+  const apiKey = 'Your-Api-Key';  // Replace with your Hugging Face API key
 
   // Function to add a new card with the current input value and an additional black card
   const addCard = async () => {
